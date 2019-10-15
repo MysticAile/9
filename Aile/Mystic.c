@@ -2,6 +2,6 @@
 
 int main(void)
 {
-    printf("Hello, Aile!\n");
+    printf("Fight, Mystic!\n");
     return 0;
-} 
+}
