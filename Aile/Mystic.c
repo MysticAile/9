@@ -2,9 +2,10 @@
 
 int main(void)
 {
-    float r, v;
+    float r, v,pi;
     r = 1.0;
-    v = 4/3.0*r*r*r*3;
+    pi=3.1415926;
+    v = 4/3.0*r*r*r*pi;
     printf("v is %f\n", v);
     return 0;
 } 
