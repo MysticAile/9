@@ -2,11 +2,12 @@
 
 int main(void)
 {
-    int t;
-    float h;
-    printf("Enter t:\n");
-    scanf("%d", &t);
-    h = 1 / 2.0 * 10 * t * t;
-    printf("h=%f\n", h);
+    int a, b, c, d, x;
+    float y;
+    printf("Enter a , b , c ,d:\n");
+    scanf("%d%d%d%d", &a, &b, &c, &d);
+    x = a + b + c + d;
+    y = x / 4.0;
+    printf("x=%d , y=%.1f\n", x, y);
     return 0;
 }
