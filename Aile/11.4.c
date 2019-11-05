@@ -1,15 +1,17 @@
-#include(stdio.h)
+#include <stdio.h>
 int main(void)
 {
     double x, y;
-    printf("Enter x:\n";
-    scanf("%lf",&x);
-    if(x<=50){
+    printf("Enter x:\n");
+    scanf("%lf", &x);
+    if (x <= 50)
+    {
         y = 0.53 * x;
     }
-    else{
+    else
+    {
         y = 0.58 * x - 2.5;
     }
-    printf("y=%f\n",x , y);
+    printf("y=%f\n", y);
     return 0;
 }
