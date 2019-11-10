@@ -1,9 +1,18 @@
 #include <stdio.h>
 int main()
 {
-    int x;
+    int x = 0;
     printf("Enter x:\n");
     scanf("%d", &x);
-    printf("x= :%d-%d-%d\n", x / 100, x % 100 / 10, x % 10);
+    int ret = 0;
+    int digit = 0;
+    while (x > 0)
+    {
+        digit = x % 10;
+        ret = ret * 10 + digit;
+        x /= 10;
+    }
+    printf("%d\n", ret);
+    system("pause");
     return 0;
 }
