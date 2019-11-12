@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(void)
 {
-    float a, b, c, d,cost;
+    float a, b, c, d, cost;
     int e;
     printf("Enter a and c:\n");
     scanf("%f%f", &a, &c);
@@ -11,7 +11,7 @@ int main(void)
     }
     if (3 < a && a <= 10)
     {
-        b = 10 + 2 * (a - 3);
+        b = 10 + 2 * (a - 3)
     }
     if (a > 10)
     {
