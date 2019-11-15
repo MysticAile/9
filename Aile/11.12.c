@@ -1,31 +1,41 @@
 #include <stdio.h>
 int main(void)
 {
-    int a;
-    printf("Enter a:\n");
-    scanf("%d", &a);
-    for (a; a < 5; a++)
+    int a, b;
+    double price;
+    for (b = 1; b < 5; b++)
     {
+        printf("[1] apples\n");
+        printf("[2] pears\n");
+        printf("[3] oranges\n");
+        printf("[4] grapes\n");
+        printf("[0] exit \n");
+
+        printf("Enter a:\n");
+        scanf("%d", &a);
+        if (a == 0)
+            break;
         switch (a)
         {
         case 4:
-            printf("grapes is 10.20\n");
+            price = 10.20;
             break;
         case 3:
-            printf("oranges is 4.10\n");
+            price = 4.10;
             break;
         case 2:
-            printf("pears is 2.50\n");
+            price = 2.50;
             break;
         case 1:
-            printf("apples is 3.00\n");
+            price = 3.00;
             break;
         case 0:
             break;
         default:
-            printf("0");
+            price = 0;
             break;
         }
+        printf("price=%lf\n", price);
     }
     return 0;
 }
