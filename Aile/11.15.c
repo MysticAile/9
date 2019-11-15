@@ -1,14 +1,10 @@
 #include <stdio.h>
 int main(void)
 {
-    int n, sum = 1, i;
-    printf("Enter n:\n");
-    scanf("%d", &n);
-
-    for (i = 1; i <= n; i++)
+    char c;
+    for(c = 'z'; c>='a' ;c--)
     {
-        sum = sum * i;
+        printf("%c",c);
     }
-    printf("sum is %d\n", sum);
     return 0;
 }
