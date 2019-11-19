@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main(void)
 {
-    int n, i, a = 1, b, sum;
+    int n, i;
+    double b, sum, e, a = 1.0;
     printf("Enter n\n");
     scanf("%d", &n);
     for (i = 1; i <= n; i++)
     {
-        a = a * i;
-        b = a;
-        sum += b;
+        a = a / i;
+        sum += a;
     }
-    printf("sum =%d\n", sum);
+    printf("e =%0.10lf\n", sum + 1);
     return 0;
 }
