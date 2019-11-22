@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>                         //连续查询价格
 int main(void)
 {
     int a, b;

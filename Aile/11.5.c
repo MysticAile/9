@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>                     //求出租车消费
 int main(void)
 {
     float a, b, c, d, cost;

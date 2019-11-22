@@ -1,5 +1,5 @@
-#include <stdio.h>
-int main(void)
+#include <stdio.h>                             
+int main(void)                      
 {
     int n, i;
     double b, sum, e, a = 1.0;

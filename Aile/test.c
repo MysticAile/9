@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>                     //输入四个数球和，平均值
 
 int main(void)
 {

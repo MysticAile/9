@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>                  //求分段函数
 int main(void)
 {
     double x, y;

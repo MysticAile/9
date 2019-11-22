@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>             //输入abcd求和，平均值
 int main (void)
 {
     int a , b, c, d;

@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>                              //将24字母按倒序输出
 int main(void)
 {
     char c;

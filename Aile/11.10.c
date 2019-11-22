@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>                     //将成绩排序
 int main(void)
 {
     int a, n, i;

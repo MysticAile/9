@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>                     //求a+aa+aaa=
 #include <math.h>
 int main(void)
 {
