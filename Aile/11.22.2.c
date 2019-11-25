@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>                                         //百钱百鸡
 int main(void)
 {
     int a, b, c;
