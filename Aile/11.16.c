@@ -1,4 +1,4 @@
-#include <stdio.h>                             
+#include <stdio.h>                            //求e 
 int main(void)                      
 {
     int n, i;
