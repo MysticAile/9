@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> //验证一个数是不是素数
 int main(void)
 {
     int a, i;
