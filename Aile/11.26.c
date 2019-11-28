@@ -1,11 +1,21 @@
-#include <stdio.h> //验证一个数是不是素数
-int main(void)
+#include <stdio.h>
+int main()
 {
-    int a, i;
-    for (a = 1; a <= 500; a++)
-        for (i = 2; i <= a / 2; i++)
-            if (a % i == 0)
-                if (i >= a / 2 && a != 1)
-                    printf("%d\n", a);
+    printf("%d ", 2);
+    int x = 3, i = 2, a = 0;
+    for (x = 3; x <= 500; x += 2)
+    {
+        a = 0;
+        for (i = 2; i < x / 2; i++)
+        {
+            if (x % i == 0)
+            {
+                a = 1;
+                break;
+            }
+        }
+        if (a == 0)
+            printf("%d ", x);
+    }
     return 0;
 }
