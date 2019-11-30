@@ -1,21 +1,27 @@
 #include <stdio.h>
-int main()
+int isPrime(int x)
 {
-    printf("%d ", 2);
-    int x = 3, i = 2, a = 0;
-    for (x = 3; x <= 500; x += 2)
+    int x, i = 2;
+    for (i = 2; i < x / 2; i++)
     {
-        a = 0;
-        for (i = 2; i < x / 2; i++)
+        if (x % i == 0)
         {
-            if (x % i == 0)
-            {
-                a = 1;
-                break;
-            }
+            return 0;
         }
-        if (a == 0)
-            printf("%d ", x);
+        else
+        {
+            return 1;
+        }
     }
+}
+int main (void)
+{
+    int main(void);
+    int x = 2, i = 2;
+    for (x = 2; x <= 500; x++)
+        if (isPrime(x))
+        {
+            printf("%d", x);
+        }
     return 0;
 }
