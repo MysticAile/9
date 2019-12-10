@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>         //用w输出W
 void draw(int n)
 {
     int i, j, k, r, m;
