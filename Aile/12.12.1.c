@@ -22,7 +22,8 @@ int main(void)
     {
         for (j = i + 1; j < 5; j++)
         {
-            remake(n, 5);
+            remake(n, 5); 
+            
         }
     }
     for (i = 0; i < 5; i++)
