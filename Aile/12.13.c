@@ -1,7 +1,7 @@
 #include <stdio.h>//用函数和数组求最大值
 #define LEN 5
 int i, max=0;
-int findmax(int x[], int a)
+void findmax(int x[], int a)
 {
     if (x[i] > max)
     {
@@ -10,7 +10,7 @@ int findmax(int x[], int a)
 }
 int main(void)
 {
-    int n[LEN];
+    int n[LEN],b[LEN];
     printf("Enter ");
     for (i = 0; i < LEN; i++)
     {
@@ -19,7 +19,9 @@ int main(void)
     for (i = 0; i < LEN; i++)
     {
         findmax(n, LEN);
+        b[i]=max;
+        printf("%d",b[i]);
     }
-    printf("%d", max);
+    printf("\n");
     return 0;
 }
