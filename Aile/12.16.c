@@ -15,7 +15,7 @@ int main(void)
         {
             if (a[j] > a[max])
                 max = j;
-        }
+        } 
         n = a[max];
         a[max] = a[i];
         a[i] = n;
@@ -24,5 +24,6 @@ int main(void)
     {
         printf("%d ", a[i]);
     }
+    printf("\n");
     return 0;
 }
