@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>//输出9*9乘法表
 int main(void)
 {
     int i, j, k;
