@@ -1,10 +1,12 @@
-#include<stdio.h>
-
+#include <stdio.h>
+void swap (char a[]);
 int main(void)
 {
-    float f,c;
-    printf ("Enter f :\n");
-    scanf("%f",&f);
-    printf("c=%.2f\n",5/9.0*(f-32));
-    return 0;
-} 
+    char a[]="beijing";
+    swap (a);
+    puts(a);
+}
+void swap (char *str)
+{
+    str[5]='wuhan';
+}
